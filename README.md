@@ -1,5 +1,6 @@
 # Classic Arcade Game Clone Project
-Memory Game is a complete browser-based card matching game.
+
+Classic Arcade Game is a complete browser-based game built by using HTML Canvas & Object-Oriented JavaScript.You can access the live demo here https://vrajanya.github.io/ClassicArcadeGameClone/. 
 
 ## Table of Contents
 
