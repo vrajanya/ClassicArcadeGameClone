@@ -1,0 +1,155 @@
+body {
+    text-align: center;
+    font-family: 'Coda','Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Coda','Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+hr {
+    margin: 0 5px;
+    width: 80%;
+    border-color: #4262A8;
+}
+
+/* Styles for the Score Panel */
+
+.score-panel {
+    text-align: left;
+    width: 345px;
+    margin-bottom: 10px;
+}
+
+.score-panel .hearts {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+    color:#6E281B;
+}
+
+.score-panel .hearts li {
+    list-style: none;
+    display: inline-block;
+}
+
+.greyheart {
+    color: #D3D3D3;
+}
+
+.score-panel .restart {
+    float: right;
+    cursor: pointer;
+}
+
+.scoreTitle {
+	margin: 0;
+    padding-left: 40px;
+}
+
+ /*styles for the end modal*/
+
+.btnModal {
+    color: #f3f7f7;
+    background-color: #4262A8;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #e9edef;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.btnModal:hover {
+    background-color: #E0E9FB;
+    color: #4262A8;
+    transition: all 0.5s ease;
+}
+
+#endModal {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(49, 49, 49, 0.7);
+    z-index: 1;
+}
+
+.modalBox {
+    position: fixed;
+    background-color: #f9fafb;
+    top: 40%;
+    left: 35%;
+    width: 500px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    list-style:none;
+}
+
+.ratingModal li {
+    list-style: none;
+    display: inline-block;
+}
+
+/*styles for the welcome modal*/
+
+#startModal {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(49, 49, 49, 0.7);
+    z-index: 1;
+}
+
+.startmodalBox {
+    position: fixed;
+    background-color: #f9fafb;
+    top: 17%;
+    left: 23%;
+    width: 700px;
+    height:475px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.startmodalBox h1 {
+    margin: auto;
+}
+
+.rulesList {
+    list-style:none;
+    text-align: left;
+    font-family: 'Coda','Open Sans', sans-serif;
+    font-size: 1.1em;
+}
+
+.playerList {
+    padding: 0;
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.playerPic:hover {
+  border-radius: 10%;
+  background-color: #E0E9FB;
+}
+
+.playerPicSeleted {
+  border-radius: 10%;
+  background-color: #E0E9FB;
+}
